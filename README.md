@@ -121,3 +121,116 @@ This may indicate that inactivity duration can be used as an early retention mon
 Interestingly, churned customers showed slightly higher average order values compared to non-churned customers.
 
 This suggests that high-value customers are not automatically loyal and that engagement may play an important role in retention.
+
+---
+
+# 📊 Customer Segmentation Analysis
+
+To better understand churn behavior patterns, segmentation analysis was performed based on:
+
+* age group
+* purchase frequency
+* customer activity level
+
+The objective of this analysis was to identify which customer segments showed higher churn risk and uncover potential behavioral indicators associated with customer retention.
+
+---
+
+## 👥 Churn Rate by Age Group
+
+Customers aged **18–25** showed the highest churn rate compared to all other age groups.
+
+Meanwhile, customers aged:
+
+* 26–35
+* 36–45
+* 46–60
+
+showed relatively lower and more stable churn rates.
+
+<img width="159" height="168" alt="image" src="https://github.com/user-attachments/assets/d86884de-7093-4ff0-b345-031ce09fb01d" />
+
+### Insight
+
+Younger customers may:
+
+* switch platforms more easily
+* have lower brand loyalty
+* respond more strongly to promotions and competitors
+
+This suggests that younger customer segments may require stronger engagement and retention strategies.
+<img width="531" height="374" alt="image" src="https://github.com/user-attachments/assets/c8bc902b-0f71-4d40-ac24-d4382fa7df39" />
+
+---
+
+## 🛒 Churn Rate by Purchase Frequency
+
+Customers with **low purchase frequency** showed significantly higher churn rates compared to more active buyers.
+
+Meanwhile:
+
+* medium-frequency customers showed moderate churn
+* high-frequency customers were generally more retained
+<img width="215" height="171" alt="image" src="https://github.com/user-attachments/assets/183111d3-1fe5-4598-8757-fca0bb2b2564" />
+
+### Insight
+
+Lower purchasing activity appears strongly associated with customer churn.
+
+Customers who purchase less frequently may:
+
+* feel less connected to the platform
+* have lower engagement levels
+* lose interest more quickly over time
+
+This suggests that purchase frequency may serve as an early warning signal for retention risk.
+<img width="531" height="374" alt="image" src="https://github.com/user-attachments/assets/4ffc03a8-7567-49d5-b1f1-d593d0a26a4a" />
+
+
+---
+
+## 📉 Churn Rate by Customer Activity
+
+Churn rate increased consistently as customer inactivity increased.
+
+* Highly inactive customers showed the highest churn rate
+* Very active customers showed the lowest churn rate
+<img width="200" height="183" alt="image" src="https://github.com/user-attachments/assets/dc28adb7-01a9-4a03-b18d-c7bd5ea3c645" />
+
+### Insight
+
+Customer inactivity appears to be one of the strongest behavioral indicators of churn risk.
+
+Long inactivity periods may indicate:
+
+* declining customer engagement
+* reduced platform interest
+* weakening customer retention
+
+This suggests that monitoring inactivity duration may help businesses identify at-risk customers earlier before complete churn occurs.
+<img width="609" height="374" alt="image" src="https://github.com/user-attachments/assets/168393f2-89af-4798-83a0-592b45ba7619" />
+
+
+---
+
+# 🧠 Additional Learnings
+
+Several important learnings emerged during this analysis:
+
+* Customer churn is closely related to engagement behavior
+* High-spending customers are not always the most loyal customers
+* Activity level may be a stronger churn indicator than transaction value
+* Segmentation analysis helps transform raw metrics into actionable business insights
+
+---
+
+# 🚀 Current Progress
+
+✅ Data cleaning completed
+✅ Missing values handled
+✅ Exploratory Data Analysis completed
+✅ Customer segmentation analysis completed
+⬜ Dashboard development in Power BI
+⬜ Business recommendation framework
+⬜ Final project storytelling
+⬜ Predictive churn modeling (optional)
