@@ -224,13 +224,123 @@ Several important learnings emerged during this analysis:
 
 ---
 
-# 🚀 Current Progress
+---
 
-✅ Data cleaning completed
-✅ Missing values handled
-✅ Exploratory Data Analysis completed
-✅ Customer segmentation analysis completed
-⬜ Dashboard development in Power BI
-⬜ Business recommendation framework
-⬜ Final project storytelling
-⬜ Predictive churn modeling (optional)
+# 📈 Correlation Analysis
+
+To further understand churn behavior, a correlation analysis was conducted to identify which customer attributes were most strongly associated with customer churn.
+
+Positive correlation indicates that higher values are associated with a higher likelihood of churn, while negative correlation indicates that higher values are associated with lower churn risk.
+
+<img width="881" height="547" alt="image" src="https://github.com/user-attachments/assets/cd2400dc-8605-429f-9025-d1c6b91f992f" />
+
+
+---
+
+## Key Findings
+
+### Positive Correlation with Churn
+
+| Feature                  | Correlation |
+| ------------------------ | ----------- |
+| Customer Service Calls   | 0.290       |
+| Average Order Value      | 0.161       |
+| Days Since Last Purchase | 0.148       |
+| Returns Rate             | 0.073       |
+
+#### Insight
+
+Customers who contacted customer support more frequently were more likely to churn.
+
+This may indicate:
+
+* unresolved issues
+* customer dissatisfaction
+* poor service experience
+
+---
+
+### Negative Correlation with Churn
+
+| Feature              | Correlation |
+| -------------------- | ----------- |
+| Pages Per Session    | -0.225      |
+| Session Duration Avg | -0.220      |
+| Email Open Rate      | -0.216      |
+| Mobile App Usage     | -0.211      |
+| Login Frequency      | -0.204      |
+
+#### Insight
+
+Customers who actively interacted with the platform were less likely to churn.
+
+Higher engagement levels appear to be strongly associated with customer retention.
+
+---
+
+# 💡 Business Recommendations
+
+Based on the findings from exploratory analysis and customer segmentation, several retention strategies are recommended.
+
+### 1. Launch Re-engagement Campaigns
+
+Target inactive customers through:
+
+* personalized email campaigns
+* loyalty rewards
+* special promotions
+* product recommendations
+
+The objective is to increase customer engagement before churn occurs.
+
+---
+
+### 2. Focus on Early Retention
+
+Younger customers demonstrated higher churn rates.
+
+Businesses may improve retention through:
+
+* onboarding programs
+* personalized experiences
+* early engagement incentives
+
+---
+
+### 3. Monitor Customer Service Interactions
+
+Frequent support requests may indicate dissatisfaction.
+
+Customers with unusually high customer service interactions should be monitored as potential churn-risk customers.
+
+---
+
+### 4. Track Engagement Metrics
+
+Important retention indicators include:
+
+* login frequency
+* session duration
+* pages viewed per session
+* mobile app usage
+* email engagement
+
+These metrics may serve as early warning signals before customers leave.
+
+---
+
+# 🎯 Final Conclusion
+
+This project analyzed customer churn behavior using customer demographic, engagement, and transaction data.
+
+Key findings indicate that customer engagement plays a critical role in retention.
+
+Customers with lower platform activity, lower interaction levels, and longer inactivity periods were significantly more likely to churn.
+
+Interestingly, spending behavior alone was not a reliable indicator of customer loyalty, highlighting the importance of engagement-focused retention strategies.
+
+Overall, the analysis demonstrates how behavioral data can be transformed into actionable business insights to support customer retention efforts.
+
+---
+
+
